@@ -1,0 +1,20 @@
+
+/* *{
+  overflow-x: hidden;
+  overflow-y: auto;
+} */
+
+*{
+  font-family: 'poppins';
+  margin: 0;
+  padding: 0;
+}
+link[rel="icon"] {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 4px solid #fff; /* Optional: add a border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+}

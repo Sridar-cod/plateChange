@@ -1,0 +1,45 @@
+.font-poppins{
+  font-family: 'poppins';
+}
+.yourOrder{
+  position: fixed;
+  top: 11%;
+  right: 1%;
+  padding: 1% 1%;
+  min-height: 88vh;
+  max-height: 85vh;
+  transition: .4s;
+  border-radius: 20px;
+  overflow-y: scroll;
+   display: flex;
+  flex-direction: column;
+  background: rgba(185, 255, 197, 0.47);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.1px);
+-webkit-backdrop-filter: blur(7.1px);
+border: 1px solid rgba(185, 255, 197, 0.11);
+ 
+  /* align-items: center;*/ 
+} 
+.order-empty-text{
+  text-align: center;
+}
+.yourOrder-line{
+  border-bottom: 2px solid rgba(155, 155, 155, 0.639);
+  text-align: center;
+}
+.yourOrder::-webkit-scrollbar {
+  display: none;
+}
+.cardOfYourOrder{
+  padding: 1.5%;
+  width: 25vw;
+  height: 22vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5%;
+  
+}
+.cardOfYourOrder__img{
+  border-radius: 50%;
+}
