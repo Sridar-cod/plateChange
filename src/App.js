@@ -44,6 +44,7 @@ function App() {
   const handleSelectLocation = (e) => {
     setLocationId(e.target.value);
   };
+  const userData = data.location
   return (
   <>
     
@@ -64,7 +65,7 @@ function App() {
           <MainPageParent
             handleSelectLocation={handleSelectLocation}
             locationList={locationList || []}
-            userData={[]}
+            userData={ userData  ||[]}
             locationId={locationId}
             showPostData={postData || []}
             setPostData={setPostData}
