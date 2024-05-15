@@ -28,7 +28,7 @@ const LoginPopUp = () => {
                     type="number"
                     placeholder=" Phone Number"
                     className="signUp-input"
-                    id="phoneNumber"
+                    // id="phoneNumber"
                     name="phoneNumber"
                   />
                 </div>
@@ -42,7 +42,7 @@ const LoginPopUp = () => {
                     placeholder="OTP"
                     className="signUp-input"
                     required
-                    id="OTP"
+                    // id="OTP"
                     name="OTP"
                   />
                 </div>

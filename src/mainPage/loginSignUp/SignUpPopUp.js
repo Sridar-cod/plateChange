@@ -26,7 +26,7 @@ const SignUpPopUp = () => {
                   </label>
                   <input
                     type="text"
-                    id="name"
+                    // id="name"
                     name="name"
                     required
                     placeholder="Name"
@@ -39,7 +39,7 @@ const SignUpPopUp = () => {
                   </label>
                   <input
                     type="tel"
-                    id="number"
+                    // id="number"
                     name="number"
                     required
                     placeholder="Phone Number"
@@ -52,7 +52,7 @@ const SignUpPopUp = () => {
                   </label>
                   <input
                     type="email"
-                    id="email"
+                    // id="email"
                     name="email"
                     required
                     placeholder="Email"
@@ -65,7 +65,7 @@ const SignUpPopUp = () => {
                   </label>
                   <input
                     type="password"
-                    id="password"
+                    // id="password"
                     name="password"
                     required
                     placeholder="Password"
