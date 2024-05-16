@@ -7,52 +7,52 @@ const WhatsInYourMind = () => {
   const content = [
     {
       id: 1,
-      text: "Idly",
+      text: "biryani",
       img: "/assets/image 8 1.svg",
     },
     {
       id: 2,
-      text: "Dosa",
+      text: "samber",
       img: "/assets/image 9 1.svg",
     },
     {
       id: 3,
-      text: "Pongal",
+      text: "idly",
       img: "/assets/image 10 1.svg",
     },
     {
       id: 4,
-      text: "Poori",
+      text: "chapathi",
       img: "/assets/image 11 1.svg",
     },
     {
       id: 5,
-      text: "Chapathi",
+      text: "puthina chatney",
       img: "/assets/image 12 1.svg",
     },
     {
       id: 6,
-      text: "Meals",
+      text: "chatney",
       img: "/assets/image 13 1.svg",
     },
     {
       id: 7,
-      text: "Sambar Rice",
+      text: "Sambar",
       img: "/assets/image 9 1.svg",
     },
     {
       id: 8,
-      text: "Curd Rice",
+      text: "idly",
       img: "/assets/image 10 1.svg",
     },
     {
       id: 9,
-      text: "Porata",
+      text: "biryani",
       img: "/assets/image 8 1.svg",
     },
     {
       id: 10,
-      text: "Vada",
+      text: "chatney",
       img: "/assets/image 13 1.svg",
     },
   ];
