@@ -24,8 +24,8 @@ const DetailsLeft = ({
 
   return (
     <>
-      <div className="d-flex justify-content-around gap-4 detailsLeft">
-        <div className="">
+      <div className="d-flex justify-content-around  gap-4 detailsLeft  row">
+        <div className="col-12  col-sm-12 col-md-4 col-lg-5 col-xl-5 col-xxl-5">
           <img
             src={filterData.foodImg}
             alt=""
@@ -34,7 +34,7 @@ const DetailsLeft = ({
             className="detailsLeft__img"
           />
         </div>
-        <div className="">
+        <div className=" col-12 col-sm-12 col-md-4 col-lg-5 col-xl-5 col-xxl-5">
           <div className="">
             <h2 className="detailsPayment__lable">{filterData.food_name}</h2>
             <p className="detailsLeftFont gray-text">
@@ -45,7 +45,7 @@ const DetailsLeft = ({
             <p className="detailsLeftFont">
               <b>Catagory:</b>{" "}
               <span>
-                {filterData.vegetarian ? "Vegetorian" : "Non-Vegetorian"}
+                {filterData.vegetarian ? "Veg" : "Non-Veg"}
               </span>
             </p>
           </div>
@@ -56,7 +56,7 @@ const DetailsLeft = ({
           </div>
           <div className="">
             <p className="detailsLeftFont">
-              <b>Expired Time:</b> {filterData.expired_time} hr
+              <b>Expired Time:</b> {filterData.expired_time}
             </p>
           </div>
           <div className="">

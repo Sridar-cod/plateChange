@@ -4,7 +4,7 @@ import LoginPopUp from "../loginSignUp/LoginPopUp";
 const Footer = () => {
   return (
     <footer className="d-flex justify-content-center mb-4 ">
-      <div className="row w-75 d-flex footer__outter p-2 pb-3">
+      <div className="row  d-flex footer__outter">
         <div className="col-12  col-sm-12 col-md-12 col-lg-4 col-xl-4  col-xxl-4 d-flex flex-column justify-content-center">
           <img
             src="/assets/logo.png"
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7   col-xxl-7 mt-4 me-4 footer__inner">
           <div className="footer__rightTop d-flex justify-content-center flex-column">
-            <h2 style={{textAlignLast:'center', color:'white'}}>Join Our Community Today!</h2>
+            <h2 className="footer-h2" style={{textAlignLast:'center', color:'white'}}>Join Our Community Today!</h2>
             <p className="footer-para" style={{textAlignLast:'center', color:'white'}}>
             Join our food sharing community and experience the difference of buying and selling homemade food with your homemates and neighbors. Whether you're looking for a unique dining experience or want to start your own food business, our platform has something for everyone. Sign up now and be part of a community that values sharing, sustainability, and delicious homemade food!
             </p>

@@ -4,9 +4,11 @@ import { useNavigate } from "react-router-dom";
 const SuccessPopUp = ({locationId,setOrderVisible}) => {
   const navigate = useNavigate();
 
-  const orderSuccess = () => {
+  const orderSuccess = (msg) => {
     navigate(`/home/${locationId}`);
-    setOrderVisible(true)
+    if (msg === "order list") {
+      setOrderVisible(true)
+    }
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -58,11 +60,13 @@ const SuccessPopUp = ({locationId,setOrderVisible}) => {
               <button
                 type="button"
                 className="btn btn-secondary"
-               
+                data-dismiss="modal"
+                aria-label="Close"
+                onClick={()=>orderSuccess("cancle")} 
               >
                 Close
               </button>
-              <button type="button" onClick={()=>orderSuccess()} className="order-success-but"  data-dismiss="modal" >
+              <button type="button" onClick={()=>orderSuccess("order list")} className="order-success-but"  data-dismiss="modal" >
                 Order List
               </button>
             </div>

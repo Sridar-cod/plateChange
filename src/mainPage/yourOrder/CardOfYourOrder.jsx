@@ -12,9 +12,6 @@ const CardOfYourOrder = ({ data }) => {
           return (
             <div className="cardOfYourOrder mb-4">
               <div className="">
-                {/* <h5>
-                  <b>Order Details:</b>
-                </h5> */}
                 <div className="d-flex justify-content-around align-items-ceter pt-1 gap-2">
                   <div className="d-flex justify-content-center">
                     <img

@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Card = ({ data }) => {
+const Card = ({ data,locationId }) => {
   return (
     <>
       {data?.map((items, index) => {
         return (
           <div
-            className="outetr-card p-2"
+            className="outter-card p-2"
             key={items.id}
             // style={{
             //   border: `4px solid ${items.vegetarian ? "#016c13" : "#ffffff"}`,
@@ -55,7 +55,7 @@ const Card = ({ data }) => {
                 }`}</p> */}
               </div>
               <div className="">
-                <Link to={`details/${items.id}`}>
+                 <Link to={`details/${items.id}`}> 
                   <button
                     className="outter-card__button popFont-smaller"
                     style={

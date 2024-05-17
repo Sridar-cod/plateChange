@@ -13,7 +13,7 @@ const AddOrEditPost = ({
   isAddPost,
   setIsAddPost,
   setEditUser,
-  handleSubmit
+  handleSubmit,
 }) => {
   const [quantityCount, setQuantityCount] = useState(1);
   const [uploadImg, setUploadImg] = useState(null);
@@ -162,7 +162,7 @@ const AddOrEditPost = ({
     if (isValid) {
       if (msg === "from add post") {
         setPostData([...showPostData, postForm]);
-        handleSubmit('addNewPost')
+        handleSubmit("addNewPost");
       } else {
         if (editUser) {
           const editedIndex = showPostData.findIndex(
@@ -175,9 +175,7 @@ const AddOrEditPost = ({
             setPostData(updatedShowPostData);
           }
         }
-        handleSubmit('editPost')
-
-
+        handleSubmit("editPost");
       }
       setUserPost({
         foodName: "",
@@ -190,7 +188,6 @@ const AddOrEditPost = ({
         foodImg: "",
         expired_time: "00:00",
       });
-     
 
       // setIsAddPost(!isAddPost);
     }
@@ -301,7 +298,7 @@ const AddOrEditPost = ({
             Category *
           </label>
           <div className="d-flex justify-content- ">
-            <div className="d-flex gap-2">
+            <div className="d-flex justify-content-center align-items-center gap-2 ">
               <input
                 type="radio"
                 id="veg"
@@ -311,11 +308,11 @@ const AddOrEditPost = ({
                 checked={userPost.vegetarian}
                 onChange={(e) => handleFormVegetarian(e, "vegetarian")}
               />
-              <label htmlFor="veg" className="addPost-lable-small">
+              <label htmlFor="veg" className="addPost-lable-small ">
                 Vegetorian
               </label>
             </div>
-            <div className="d-flex gap-2 formParent__radio-div">
+            <div className="d-flex justify-content-center align-items-center gap-2 formParent__radio-div">
               <input
                 type="radio"
                 id="non-veg"
@@ -326,7 +323,7 @@ const AddOrEditPost = ({
                 onChange={(e) => handleFormVegetarian(e, "vegetarian")}
               />
               <label htmlFor="non-veg" className="addPost-lable-small">
-                Non-Vegetorian
+                Non-Veg
               </label>
             </div>
           </div>

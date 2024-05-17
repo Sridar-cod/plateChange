@@ -7,14 +7,12 @@ const HowItWorks = () => {
         <h1 className="landing-heading-text" style={{ textAlign: "center" }}>
           How We're Different
         </h1>
-        <div className="row w-100 ps-4 pe-4 d-flex justify-content-center align-items-center">
+        <div className="row w-100  ps-3  d-flex justify-content-center align-items-center">
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  col-xxl-6 d-flex justify-content-center">
             <img
               src="assets/how-it-work-1.svg"
               alt=""
-              width={"400px"}
-              height={"400px"}
-              className=""
+              className="how-it-work-img"
             />
           </div>
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  col-xxl-6">
@@ -31,14 +29,12 @@ const HowItWorks = () => {
             </p>
           </div>
         </div>
-        <div className="row w-100 ps-5 pe-4 d-flex justify-content-center align-items-center">
+        <div className="row w-100 ps-3 d-flex justify-content-center align-items-center">
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  col-xxl-6 d-flex justify-content-center d-flex justify-content-center howItWork__orderChangeRight">
             <img
               src="assets/how-it-work-2.svg"
               alt=""
-              width={"400px"}
-              height={"400px"}
-              className=""
+              className="how-it-work-img"
             />
           </div>
 
@@ -57,14 +53,12 @@ const HowItWorks = () => {
           </div>
         </div>
 
-        <div className="row w-100 ps-4 pe-4 d-flex justify-content-center align-items-center">
+        <div className="row w-100 ps-3 d-flex justify-content-center align-items-center">
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  col-xxl-6 d-flex justify-content-center">
             <img
               src="assets/landing-img-nego.png"
               alt=""
-              width={"300px"}
-              height={"300px"}
-              className=""
+              className="how-it-work-img"
             />
           </div>
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  col-xxl-6">
@@ -82,18 +76,16 @@ const HowItWorks = () => {
             </p>
           </div>
         </div>
-        <div className="row w-100 ps-5 pe-4 d-flex justify-content-center align-items-center">
+        <div className="row w-100 ps-3 d-flex justify-content-center align-items-center">
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  col-xxl-6 d-flex justify-content-center d-flex justify-content-center howItWork__orderChangeRight">
             <img
               src="assets/landing-img-food-waste.avif"
               alt=""
-              width={"400px"}
-              height={"400px"}
-              className=""
+              className="how-it-work-img"
             />
           </div>
 
-          <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  col-xxl-6 d-flejustify-content-center howItWork__orderChangeLeft ">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  col-xxl-6 howItWork__orderChangeLeft ">
             <h2
               className="landing-sub-heading-text"
               style={{ textAlign: "center" }}
@@ -108,10 +100,10 @@ const HowItWorks = () => {
           </div>
         </div>
 
-        <section className="m-4">
+        <section className="how-it-works-out-sec">
           <h1 className="landing-heading-text">How It Works</h1>
           <div className="row mt-4">
-            <div className="col">
+            <div className="mt-3 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  col-xxl-6">
               <div className=" p-3 htw-card">
                 <b>List Your Food:</b>
                 <p>
@@ -121,7 +113,7 @@ const HowItWorks = () => {
                 </p>
               </div>
             </div>
-            <div className="col">
+            <div className="mt-3 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  col-xxl-6">
               <div className=" p-3 htw-card">
                 <b>Find Food Near You:</b>
                 <p>
@@ -133,8 +125,8 @@ const HowItWorks = () => {
             </div>
           </div>
 
-          <div className="row mt-4">
-            <div className="col">
+          <div className="row ">
+            <div className="mt-3 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  col-xxl-6">
               <div className=" p-3 htw-card">
                 <b>Negotiate and Purchase:</b>
                 <p>
@@ -144,7 +136,7 @@ const HowItWorks = () => {
                 </p>
               </div>
             </div>
-            <div className="col">
+            <div className="mt-3 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  col-xxl-6">
               <div className=" p-3 htw-card">
                 <b>Enjoy Homemade Goodness:</b>
                 <p>
@@ -154,15 +146,9 @@ const HowItWorks = () => {
               </div>
             </div>
           </div>
-          {/* <ul>
-            <li>List Your Food: If you have extra food to sell, simply list it on our website. Provide details such as the type of food, quantity, price, and pickup/delivery options.</li>
-            <li>Find Food Near You: Browse listings from your homemates and neighbors to find homemade food that suits your taste. Contact the seller to negotiate the price if needed.</li>
-            <li>Negotiate and Purchase: Since you're buying from people you know, you can negotiate the price to get the best deal. Once you agree on a price, arrange for pickup or delivery.</li>
-            <li>Enjoy Homemade Goodness: Receive your homemade food and enjoy a delicious meal made with love and care by your homemates and neighbors.</li> 
-          </ul>*/}
         </section>
       </main>
-      <div className="howItWork__footer">
+      <div className="howItWork__footer  mt-3">
         <Footer />
         <p className="howItWork__footer__copyRight">
           Plate Change Copyright 2024. All rights reserved.

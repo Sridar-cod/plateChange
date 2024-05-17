@@ -7,7 +7,7 @@ const DetailsRight = ({setIsPlaceOrder,locationId,setOrderVisible}) => {
   const [changeNext, setChangeNext] = useState("address");
   return (
     <>
-      <div className="detailsRight">
+      <div className="detailsRight ">
         {changeNext === "address" ? (
           <DetailsAddress
             setChangeNext={setChangeNext}

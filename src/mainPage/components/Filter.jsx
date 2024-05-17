@@ -55,18 +55,9 @@ const Filter = ({ form, setForm, dataFilter, locationData,setFilterData }) => {
     handleFilterSep();
   }, [veg, price]);
 
-
-  // const toggleFilter = (filter) => {
-  //   setFilters({
-  //     ...filters,
-  //     [filter]: !filters[filter],
-  //   });
-  // };
-
-
   return (
     <>
-      <div className="filter-outter d-flex gap-4 leftRightMar">
+      <div className="filter-outter d-flex gap-4 leftRightMar ">
         <div
           className="filter-outter__filter filter-com-box popFont-small"
           data-toggle="modal"
@@ -142,7 +133,7 @@ const Filter = ({ form, setForm, dataFilter, locationData,setFilterData }) => {
                       htmlFor="priceUp"
                       className="filter-lable-font ms-3 mt-0"
                     >
-                      price UpToDown
+                      price Up
                     </label>
                     <input
                       type="radio"
@@ -155,7 +146,7 @@ const Filter = ({ form, setForm, dataFilter, locationData,setFilterData }) => {
                   </div>
                   <div className="d-flex">
                     <label htmlFor="priceDown" className="filter-lable-font">
-                      price DownToUp
+                      price Down
                     </label>
                     <input
                       type="radio"

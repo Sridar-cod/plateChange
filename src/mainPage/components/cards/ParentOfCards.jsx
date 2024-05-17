@@ -1,7 +1,5 @@
-import React, { useState } from "react";
 import Card from "../cards/Card";
-import Footer from "../../header&footer/Footer";
-const ParentOfCards = ({ filterData }) => {
+const ParentOfCards = ({ filterData,locationId }) => {
   return (
     <>
       <div className="leftRightMar mb-4 ">
@@ -10,7 +8,7 @@ const ParentOfCards = ({ filterData }) => {
           <h4 className="card-title-text">Available dishes near you</h4>
         </section>
         <section className="parent-card-section gap-5 mb-4">
-          <Card data={filterData} />
+          <Card data={filterData} locationId={locationId} />
         </section>
       </div>
     </>

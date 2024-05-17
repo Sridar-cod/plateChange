@@ -1,14 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Navigation from "./header&footer/Navigation";
-import Filter from "../mainPage/components/Filter";
-import WhatInYourMind from "../mainPage/components/WhatsInYourMind";
-import ParentOfCards from "./components/cards/ParentOfCards";
-import AddPostParent from "../mainPage/addPost/AddPostParent";
 import Footer from "./../mainPage/header&footer/Footer";
 import DetailsParent from "./detailsPage/DetailsParent";
-import YourOrderParent from "./yourOrder/YourOrderParent";
-import YourListParent from "./yourList/YourListParent";
-import { Link, Route, Routes } from "react-router-dom";
+import {  Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 const MainPageParent = ({
   userData,
@@ -70,17 +64,7 @@ const MainPageParent = ({
                 />
               }
             />
-            {/* <Route
-              path="post"
-              element={
-                <AddPostParent
-                  locationList={locationList || []}
-                  setPostData={setPostData}
-                  locationId={locationId}
-                  showPostData={showPostData}
-                />
-              }
-            /> */}
+  
             <Route
               path="details/:id"
               element={

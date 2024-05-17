@@ -34,17 +34,11 @@ const Home = ({
     eachPerson: false,
     eachItems: true,
   });
-  // const [filters, setFilters] = useState({
-  //   veg: false,
-  //   price: false,
-  // });
-  
 
   const { id } = useParams();
   const location = id.toLowerCase();
   const locationData = userData[location];
   const [filterData, setFilterData] = useState([]);
-
 
   useEffect(() => {
     setFilterData(locationData);
@@ -75,7 +69,7 @@ const Home = ({
 
   //form filter
   const dataFilter = () => {
-    let filteredData = [...locationData]; 
+    let filteredData = [...locationData];
     // Apply price filter
     if (form.priceUp) {
       filteredData = filteredData.sort((el1, el2) =>
@@ -114,7 +108,7 @@ const Home = ({
         setFilterData={setFilterData}
       />
       <WhatsInYourMind />
-      <ParentOfCards filterData={filterData || []} />
+      <ParentOfCards locationId={locationId} filterData={filterData || []} />
       {orderVisible ? <YourOrderParent orderList={orderList} /> : null}
       {postVisible ? (
         <YourListParent
@@ -159,48 +153,6 @@ const Home = ({
           </div>
         </div>
       ) : null}
-
-      {/*}  //   <div
-      //     className="modal fade"
-      //     // id="exampleModalLong"
-      //     // tabindex="-1"
-      //     // role="dialog"
-      //     // aria-labelledby="exampleModalLongTitle"
-      //     // aria-hidden="true"
-      //   >
-      //     <div className="modal-dialog add-post-dialog " role="document">
-      //       <div className="modal-content add-post-content">
-      //         <div className="modal-header ">
-      //           <h5 className="modal-title" id="exampleModalLongTitle">
-      //             {sendMsg == 'from add post' ?
-      //               "Add Post" : "Edit Post"}
-      //           </h5>
-      //           <button
-      //             type="button"
-      //             className="close"
-      //             data-dismiss="modal"
-      //             aria-label="Close"
-      //           >
-      //             <span aria-hidden="true">&times;</span>
-      //           </button>
-      //         </div>
-      //         <div className="modal-body">
-      //           <AddPostParent
-      //             locationList={locationList || []}
-      //             setPostData={setPostData}
-      //             locationId={locationId}
-      //             showPostData={showPostData}
-      //             editUser={editUser}
-      //             message={sendMsg}
-      //           />
-      //         </div>
-      //         {/* <div className="modal-footer">
-      //   <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-      //   <button type="button" className="btn btn-primary">Save changes</button>
-      // </div> 
-      //       </div>
-      //     </div>
-    //   </div>*/}
     </>
   );
 };

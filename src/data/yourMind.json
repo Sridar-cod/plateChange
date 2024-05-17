@@ -1,0 +1,54 @@
+{
+  "yourMind": [
+    {
+      "id": 1,
+      "img": "https://app.tutorjoes.in/img/food/98.jpg",
+      "text": "Dosa"
+    },
+    {
+      "id": 2,
+      "img": "https://app.tutorjoes.in/img/food/9.jpg",
+      "text": "Chicken 65"
+    },
+    {
+      "id": 3,
+      "img": "https://app.tutorjoes.in/img/food/19.jpg",
+      "text": "Veg Rice"
+    },
+    {
+      "id": 4,
+      "img": "https://app.tutorjoes.in/img/food/25.jpg",
+      "text": "Chapathi"
+    },
+    {
+      "id": 5,
+      "img": "https://app.tutorjoes.in/img/food/26.jpg",
+      "text": "Pasta"
+    },
+    {
+      "id": 6,
+      "img": "https://app.tutorjoes.in/img/food/27.jpg",
+      "text": "Juice"
+    },
+    {
+      "id": 7,
+      "img": "https://app.tutorjoes.in/img/food/38.jpg",
+      "text": "Ice"
+    },
+    {
+      "id": 8,
+      "img": "https://app.tutorjoes.in/img/food/60.jpg",
+      "text": "Cake"
+    },
+    {
+      "id": 9,
+      "img": "https://app.tutorjoes.in/img/food/70.jpg",
+      "text": "Sweet"
+    },
+    {
+      "id": 10,
+      "img": "https://app.tutorjoes.in/img/food/12.jpg",
+      "text": "Pizza"
+    }
+  ]
+}

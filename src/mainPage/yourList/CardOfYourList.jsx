@@ -73,8 +73,9 @@ const CardOfYourList = ({
                       <button
                         type="button"
                         className="yourListParent__font post-delete-button"
-                        data-toggle="modal"
-                        data-target={`#${modalId}`}
+                        // data-toggle="modal"
+                        // data-target={`#${modalId}`}
+                        onClick={() => handleDeletePost(items.id)}
                       >
                         Delete
                       </button>
@@ -82,8 +83,8 @@ const CardOfYourList = ({
                   </div>
                 </div>
                 {/* delete pop */}
-                <div
-                  className="modal fad popp b1"
+                {/* <div
+                  className="modal fad popp "
                   id={modalId}
                   tabIndex="-1"
                   role="dialog"
@@ -130,7 +131,7 @@ const CardOfYourList = ({
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </>
             );
           })
