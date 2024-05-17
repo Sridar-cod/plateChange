@@ -104,7 +104,7 @@ const Home = ({
         setForm={setForm}
         form={form}
         dataFilter={dataFilter}
-        locationData={locationData}
+        locationData={locationData || []}
         setFilterData={setFilterData}
       />
       <WhatsInYourMind />
