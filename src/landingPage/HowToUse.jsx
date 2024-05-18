@@ -22,8 +22,9 @@ const HowToUse = () => {
             Have leftovers from last night's dinner or made a bit too much of
             your favorite dish? Why not sell it to your homemates and neighbors
             through our website?
-          </h5>
-        <div className="row w-100 mt-2">
+        </h5>
+        <div className="w-100 d-flex justify-content-center">
+        <div className="row w-100 mt-2 ">
           <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex flex-column col-xxl-4 sell-card b1">
             <img
               src="assets/landing-img-1.png"
@@ -70,7 +71,8 @@ const HowToUse = () => {
               seamless and enjoyable experience for them.
             </p>
           </div>
-        </div>
+          </div>
+          </div>
       </section>
 
       <section className="mt-4 ps-2">
@@ -80,7 +82,8 @@ const HowToUse = () => {
         <h5 style={{ textAlign: "center" }} className="mb-5 ">
             Craving something homemade but don't feel like cooking? Browse
             through listings from your nearby homemates and neighbors.
-          </h5>
+        </h5>
+        <div className="w-100 d-flex justify-content-center">
         <div className="row w-100">
           <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4  col-xxl-4 d-flex flex-column sell-card">
             <img
@@ -120,7 +123,8 @@ const HowToUse = () => {
               {/* Track the status of your order and await delivery! */}
             </p>
           </div>
-        </div>
+          </div>
+          </div>
       </section>
     </section>
   );

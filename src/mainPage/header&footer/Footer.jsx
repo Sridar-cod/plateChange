@@ -12,7 +12,7 @@ const Footer = () => {
             width={"200px"}
             height={"200px"}
             className="logo-img mb-4 "
-          />
+              />
 
           <div className="d-flex justify-content-around">
             <a href="https://www.instagram.com/_dhar_sri/" target="black">
@@ -67,10 +67,6 @@ const Footer = () => {
               data-target="#login"
             >Login</button>
           </div>
-          {/* <div className="footer__rightBottom">
-            <img src="" alt="" width={"100px"} height={"100px"} />
-            <p>about as</p>
-          </div> */}
         </div>
       </div>
       <SignUpPopUp />

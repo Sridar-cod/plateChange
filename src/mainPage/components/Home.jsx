@@ -21,6 +21,7 @@ const Home = ({
   setIsAddPost,
   orderList,
   setPostVisible,
+  handleSideSection,
 }) => {
   //states management
   const [isLoader, setIsLoader] = useState(false);
@@ -109,7 +110,12 @@ const Home = ({
       />
       <WhatsInYourMind />
       <ParentOfCards locationId={locationId} filterData={filterData || []} />
-      {orderVisible ? <YourOrderParent orderList={orderList} /> : null}
+      {orderVisible ? (
+        <YourOrderParent
+          orderList={orderList}
+          handleSideSection={handleSideSection}
+        />
+      ) : null}
       {postVisible ? (
         <YourListParent
           handleEditPost={handleEditPost}
@@ -117,6 +123,7 @@ const Home = ({
           setPostData={setPostData}
           setIsAddPost={setIsAddPost}
           isAddPost={isAddPost}
+          handleSideSection={handleSideSection}
         />
       ) : null}
       {isAddPost ? (

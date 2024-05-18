@@ -27,6 +27,7 @@ const MainPageParent = ({
       setPostVisible(false);
       setOrderVisible(!orderVisible);
     }
+    
   };
 
   return (
@@ -61,6 +62,7 @@ const MainPageParent = ({
                   setIsAddPost={setIsAddPost}
                   orderList={orderList}
                   setPostVisible={setPostVisible}
+                  handleSideSection={handleSideSection}
                 />
               }
             />

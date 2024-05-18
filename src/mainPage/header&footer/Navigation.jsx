@@ -55,7 +55,7 @@ const Navigation = ({
           />
           <svg
             width={"20px"}
-            className="location__location-icon"
+            className="location__location-icon ms-2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 384 512"
           >

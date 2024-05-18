@@ -1,14 +1,10 @@
 import React from "react";
 
-const CardOfYourOrder = ({ data }) => {
-  console.log(data, "order1");
-  const datas = data.orderList;
-  console.log(datas, "data of order card");
-
+const CardOfYourOrder = ({ orderList }) => {
   return (
     <>
-      {datas.length > 0 ? (
-        datas?.map((items) => {
+      {orderList.length > 0 ? (
+        orderList?.map((items) => {
           return (
             <div className="cardOfYourOrder mb-4">
               <div className="">
@@ -27,7 +23,7 @@ const CardOfYourOrder = ({ data }) => {
                       <b>{items.food_name}</b>
                     </h5>
                     <b className="font-poppins">Catogary: </b>
-                    <small  className="font-poppins">{items.vegetarian ? "Vegetarian" : "Non-Vegetarian"}</small>
+                    <small  className="font-poppins">{items.vegetarian ? "Veg" : "Non-Veg"}</small>
                     <p className="m-0 p-0 font-poppins">
                       <b>Expired Time: </b>
                       {items.expired_time}
@@ -37,20 +33,6 @@ const CardOfYourOrder = ({ data }) => {
                       {`${items.price}Rs`}
                     </h5>
                   </div>
-                </div>
-              </div>
-              <div className="mt-3">
-                {/* <h5>
-                  <b>Order Status:</b>
-                </h5> */}
-                <div className="">
-                  <ul>
-                    {/* <li>
-                    {items.orderStatus.confirmation}
-                  </li>
-                  <li>{items.orderStatus.orderPick}</li>
-                  <li>{items.orderStatus.sellerMessage}</li> */}
-                  </ul>
                 </div>
               </div>
             </div>

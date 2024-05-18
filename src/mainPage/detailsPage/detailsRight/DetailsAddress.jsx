@@ -154,7 +154,7 @@ const DetailsAddress = ({ setChangeNext }) => {
             style={validity.city ? { border: "2px solid red" } : {}}
           />
         </div>
-        <div className="d-flex justify-content-end mt-3">
+        <div className="d-flex  justify-content-end mt-3">
           <button className="details-next-button" onClick={handleNext}>
             Next
           </button>

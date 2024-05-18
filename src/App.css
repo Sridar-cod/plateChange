@@ -1,1 +1,269 @@
-button{cursor:pointer;border:none}.landing-heading-text{font-family:"Inter";font-weight:800;color:#016c13}.landing-sub-heading-text{font-family:"Inter";font-weight:400;color:#016c13}.button__com-post{background:#fff;width:90px;border-radius:5px;padding:2% 1%;color:#135e02;font-style:oblique;font-weight:600;font-family:"poppins","sans-serif"}.button__com-post:hover{background:#016c13;color:#fff}.button__com-login:hover{background-color:#016c13;color:#fff}.button__com-order:hover{background-color:#016c13;color:#fff}.button__com-signUp:hover{background-color:#016c13;color:#fff}.button__com-login{background-color:#000;border-radius:5px;padding:1%;width:90px;background-color:#fff;color:#135e02;font-style:oblique;font-weight:600;transition:.2;font-family:"poppins","sans-serif"}.button__com-order{width:90px;border-radius:5px;border:2px solid #000;padding:1%;color:#135e02;font-style:oblique;font-weight:600;transition:.2;font-family:"poppins","sans-serif"}.button__com-signUp{width:90px;border-radius:5px;padding:1%;color:#135e02;font-style:oblique;font-weight:600;transition:.2;font-family:"poppins","sans-serif"}.cur-pointer{cursor:pointer}.b1{border:2px solid red}.b2{border:2px solid #ff0}.b3{border:2px solid green}.navigation-outter{border-bottom:2px solid rgb(148 147 147 / .396);background-color:#000;padding:1% 5% 1% 0%}.createPost-outter{width:95px;color:#000;background-color:#fff;border-radius:10px;cursor:pointer;font-family:"poppins","sans-serif";transition:0.2s;font-weight:800;font-style:italic;display:flex;padding:2%}.createPost-outter:hover{background-color:#016c13;color:#fff;font-size:18px;font-weight:800}.createPost-outter__circle{background-size:100% 100%;background-position:0 0;background-image:linear-gradient(90deg,#a100ffff 0%,#71c4ffff 100%);width:60px;height:60px;border-radius:50%;cursor:pointer}.createPost-outter__text{position:absolute;top:30%;color:#000;background-color:#fff;padding:0 20px;font-family:"Inter",Courier,monospace;font-size:10px;cursor:pointer}.logo-img{border-radius:50%;align-self:center}.footer__outter{background-color:#016c13;border-radius:30px;padding:2%;padding-bottom:3%;width:75%}.footer-para{font-family:"Inter",Courier,monospace;font-size:22px;font-weight:600;text-align:center}.rightTop__button{margin-top:5%;padding:1%;padding-left:15%;padding-right:15%;align-self:center;align-content:center;border-radius:5px;color:#016c13;background-color:aliceblue;font-weight:800;font-family:"Inter",Courier,monospace}.nav-login-signin{display:flex}.nav-lists{display:flex}.add-post-icon-mob{color:#fff;background-color:#fff;padding:3%;margin:5%;width:50px;border-radius:10%;display:none;justify-content:center}.create-outter-mob{background-color:#fff;padding:2%}.mob-button{background-color:#000;padding:1%;margin:2%;display:flex;justify-content:center;color:#fff}.mob-list-view-div{position:fixed;top:10%;background-color:#fff;padding:3%;width:100%;transition:1s;z-index:9999;display:block}@media only screen and (max-width:550px){.mob-list-view-close h5{display:none!important}.createPost-outter{display:none}.add-post-icon-mob{display:flex}.create-outter-mob{display:flex}.footer__outter{background-color:#016c13;border-radius:30px;padding:2%;padding-bottom:3%;width:100%;margin:2%}.nav-lists{display:none}.nav-login-signin{display:none}.footer-para{font-family:"Inter",Courier,monospace;font-size:16px}.footer-h2{font-family:"Inter",Courier,monospace;font-size:20px;font-weight:800}}
+button {
+  cursor: pointer;
+  border: none;
+}
+.landing-heading-text {
+  font-family: "Inter";
+  font-weight: 800;
+  color: #016c13;
+}
+.landing-sub-heading-text {
+  font-family: "Inter";
+  font-weight: 400;
+  color: #016c13;
+}
+.button__com-post {
+  background: #fff;
+  width: 90px;
+  border-radius: 5px;
+  padding: 2% 1%;
+  color: #135e02;
+  font-style: oblique;
+  font-weight: 600;
+  font-family: "poppins", "sans-serif";
+}
+.button__com-post:hover {
+  background: #016c13;
+  color: #fff;
+}
+.button__com-login:hover {
+  background-color: #016c13;
+  color: #fff;
+}
+.button__com-order:hover {
+  background-color: #016c13;
+  color: #fff;
+}
+.button__com-signUp:hover {
+  background-color: #016c13;
+  color: #fff;
+}
+.button__com-login {
+  background-color: #000;
+  border-radius: 5px;
+  padding: 1%;
+  width: 90px;
+  background-color: #fff;
+  color: #135e02;
+  font-style: oblique;
+  font-weight: 600;
+  transition: 0.2;
+  font-family: "poppins", "sans-serif";
+}
+.button__com-order {
+  width: 90px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  padding: 1%;
+  color: #135e02;
+  font-style: oblique;
+  font-weight: 600;
+  transition: 0.2;
+  font-family: "poppins", "sans-serif";
+}
+.button__com-signUp {
+  width: 90px;
+  border-radius: 5px;
+  padding: 1%;
+  color: #135e02;
+  font-style: oblique;
+  font-weight: 600;
+  transition: 0.2;
+  font-family: "poppins", "sans-serif";
+}
+.cur-pointer {
+  cursor: pointer;
+}
+.b1 {
+  border: 2px solid red;
+}
+.b2 {
+  border: 2px solid #ff0;
+}
+.b3 {
+  border: 2px solid green;
+}
+.navigation-outter {
+  border-bottom: 2px solid rgb(148 147 147 / 0.396);
+  background-color: #000;
+  padding: 1% 5% 1% 0%;
+}
+.createPost-outter {
+  width: 95px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "poppins", "sans-serif";
+  transition: 0.2s;
+  font-weight: 800;
+  font-style: italic;
+  display: flex;
+  padding: 2%;
+}
+.createPost-outter:hover {
+  background-color: #016c13;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+}
+.createPost-outter__circle {
+  background-size: 100% 100%;
+  background-position: 0 0;
+  background-image: linear-gradient(90deg, #a100ffff 0%, #71c4ffff 100%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.createPost-outter__text {
+  position: absolute;
+  top: 30%;
+  color: #000;
+  background-color: #fff;
+  padding: 0 20px;
+  font-family: "Inter", Courier, monospace;
+  font-size: 10px;
+  cursor: pointer;
+}
+.logo-img {
+  border-radius: 50%;
+  align-self: center;
+}
+.footer__outter {
+  background-color: #016c13;
+  border-radius: 30px;
+  padding: 2%;
+  padding-bottom: 3%;
+  width: 75%;
+}
+.footer-para {
+  font-family: "Inter", Courier, monospace;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+.rightTop__button {
+  margin-top: 5%;
+  padding: 1%;
+  padding-left: 15%;
+  padding-right: 15%;
+  align-self: center;
+  align-content: center;
+  border-radius: 5px;
+  color: #016c13;
+  background-color: aliceblue;
+  font-weight: 800;
+  font-family: "Inter", Courier, monospace;
+}
+.nav-login-signin {
+  display: flex;
+}
+.nav-lists {
+  display: flex;
+}
+.add-post-icon-mob {
+  color: #fff;
+  background-color: #fff;
+  padding: 3%;
+  margin: 5%;
+  width: 50px;
+  border-radius: 10%;
+  display: none;
+  justify-content: center;
+}
+.create-outter-mob {
+  background-color: #fff;
+  padding: 2%;
+}
+.mob-button {
+  background-color: #000;
+  padding: 1%;
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.mob-list-view-div {
+  position: fixed;
+  top: 10%;
+  background-color: #fff;
+  padding: 3%;
+  width: 100%;
+  transition: 1s;
+  z-index: 9999;
+  display: block;
+}
+.signUp-h5 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding: 2%;
+  border-bottom: 2px solid rgb(129 129 129 / 0.637);
+}
+.signUp-input {
+  border: 2px solid rgb(152 151 151 / 0.581);
+  padding: 1%;
+}
+.signUp-label {
+  font-family: "Poppins", sans-serif;
+}
+.signUp-button {
+  background-color: #000;
+  padding: 2%4%;
+  width: 100%;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: larger;
+  height: 8vh;
+  transition: 0.5s;
+}
+.signUp-button:hover {
+  color: #016c13;
+  font-size: 24px;
+  font-weight: 800;
+  width: 30%;
+}
+@media only screen and (max-width: 550px) {
+  .mob-list-view-close h5 {
+    display: none !important;
+  }
+  .signUp-button:hover {
+    color: #016c13;
+    font-size: 18px;
+    font-weight: 800;
+    width: 30%;
+  }
+  .createPost-outter {
+    display: none;
+  }
+  .add-post-icon-mob {
+    display: flex;
+  }
+  .create-outter-mob {
+    display: flex;
+  }
+  .footer__outter {
+    background-color: #016c13;
+    border-radius: 30px;
+    padding: 2%;
+    padding-bottom: 3%;
+    width: 100%;
+    margin: 2%;
+  }
+  .nav-lists {
+    display: none;
+  }
+  .nav-login-signin {
+    display: none;
+  }
+  .footer-para {
+    font-family: "Inter", Courier, monospace;
+    font-size: 16px;
+  }
+  .footer-h2 {
+    font-family: "Inter", Courier, monospace;
+    font-size: 20px;
+    font-weight: 800;
+  }
+}

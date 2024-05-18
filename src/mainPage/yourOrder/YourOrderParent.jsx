@@ -1,17 +1,24 @@
-import React from 'react'
-import './yourOrder.css'
-import CardOfYourOrder from './CardOfYourOrder'
-const YourOrderParent = (orderList) => {
+import React from "react";
+import "./yourOrder.css";
+import CardOfYourOrder from "./CardOfYourOrder";
+const YourOrderParent = ({ orderList, handleSideSection } ) => {
+  console.log(orderList,"sfg")
   return (
     <>
       <div className="yourOrder">
-        <h1  className="font-poppins yourOrder-line pb-3">Your Order List</h1>
-        <CardOfYourOrder
-          data={orderList || []}
-        />
+          <h1 className="font-poppins yourOrder-line ps-3 pe-3 pb-3 mt-3">Your Order List</h1>
+          <svg
+            className="yourOrder-cancel-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 384 512"
+            onClick={() => handleSideSection("order")}
+          >
+            <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+          </svg>
+        <CardOfYourOrder orderList={orderList || []} />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default YourOrderParent
+export default YourOrderParent;

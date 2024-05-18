@@ -35,6 +35,7 @@ const SuccessPopUp = ({locationId,setOrderVisible}) => {
                 className="close"
                 data-dismiss="modal"
                 aria-label="Close"
+                onClick={()=>orderSuccess("cancle")} 
               >
                 <span aria-hidden="true">&times;</span>
               </button>
