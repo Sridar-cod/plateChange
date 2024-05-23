@@ -7,8 +7,6 @@ const DetailsLeft = ({
   isPlaceOrder,
   setIsPlaceOrder,
 }) => {
-  console.log( locationData,
-    isPlaceOrder,'sgrf')
   const [error,setError] = useState(false)
   const { id } = useParams();
   let filterData = {}

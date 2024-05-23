@@ -158,7 +158,7 @@ const Filter = ({ form, setForm, dataFilter, locationData,setFilterData }) => {
                     />
                   </div>
                 </div>
-                <h5 className="filter-head">Vegitaria :</h5>
+                <h5 className="filter-head">Vegetarian :</h5>
                 <div className="d-flex justify-content-around mb-3">
                   <div className="d-flex">
                     <label htmlFor="veg" className="filter-lable-font">
@@ -167,7 +167,7 @@ const Filter = ({ form, setForm, dataFilter, locationData,setFilterData }) => {
                     <input
                       type="radio"
                       id="veg"
-                      name="Vegitaria"
+                      name="vegetarian"
                       className="filter-input-ratio"
                       onChange={() => handleFilterInput("veg")}
                       checked={form.veg}
