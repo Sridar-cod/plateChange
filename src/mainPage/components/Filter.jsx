@@ -158,7 +158,7 @@ const Filter = ({ form, setForm, dataFilter, locationData,setFilterData }) => {
                     />
                   </div>
                 </div>
-                <h5 className="filter-head">Vegetarian :</h5>
+                <h5 className="filter-head">Category :</h5>
                 <div className="d-flex justify-content-around mb-3">
                   <div className="d-flex">
                     <label htmlFor="veg" className="filter-lable-font">
@@ -187,12 +187,12 @@ const Filter = ({ form, setForm, dataFilter, locationData,setFilterData }) => {
                     />
                   </div>
                 </div>
-                <h5 className="filter-head">Catogery :</h5>
+                <h5 className="filter-head">For Each :</h5>
                 <div className="">
                   <div className="d-flex justify-content-around">
                     <div className="d-flex">
                       <label htmlFor="person" className="filter-lable-font">
-                        Each Person
+                         Person
                       </label>
                       <input
                         type="radio"
@@ -205,7 +205,7 @@ const Filter = ({ form, setForm, dataFilter, locationData,setFilterData }) => {
                     </div>
                     <div className="d-flex">
                       <label htmlFor="" className="filter-lable-font">
-                        Each items
+                         Items
                       </label>
                       <input
                         type="radio"
